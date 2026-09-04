@@ -32,8 +32,8 @@ An Invisible Cloak project built using **Python, OpenCV, and NumPy** that create
 ### Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Invisible-Cloak
+git clone https://github.com/Karthikram6/invisible-cloak.git
+cd invisible-cloak
 ```
 
 ### Install Dependencies
