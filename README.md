@@ -47,3 +47,86 @@ An Invisible Cloak project built using **Python, OpenCV, NumPy, and Streamlit** 
 ```bash
 git clone https://github.com/Karthikram6/invisible-cloak.git
 cd invisible-cloak
+Create a Virtual Environment
+python -m venv venv
+Activate the Virtual Environment
+Windows
+venv\Scripts\activate
+Linux / macOS
+source venv/bin/activate
+Install Dependencies
+pip install -r requirements.txt
+🖥️ Run the Desktop Version
+python main.py
+Desktop Controls
+Q — Quit the application
+R — Recapture the background
+M — Toggle mask preview
+HSV Trackbars — Adjust red color detection
+🌐 Run the Web Version
+streamlit run app.py
+
+After running, open the local URL provided by Streamlit in your browser.
+
+📋 Requirements
+Python 3.8+
+Webcam
+Bright red cloth
+Stable lighting
+Internet connection for the deployed web version
+📁 Project Structure
+Invisible-Cloak/
+│
+├── app.py
+├── main.py
+├── utils.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+🎮 Web App Controls
+Start Camera — Start the webcam
+Capture Background — Capture the background without the red cloth
+Reset Background — Reset and recapture the background
+HSV Sliders — Adjust red color detection parameters
+⚙️ Image Processing Pipeline
+Webcam frame capture
+Gaussian Blur
+BGR to HSV color conversion
+Red color segmentation
+Morphological operations
+Mask refinement
+Background replacement
+Real-time output display
+🌍 Deployment
+
+The web application is deployed using Streamlit Community Cloud.
+
+Live Application
+
+👉 Open Invisible Cloak
+
+Source Code
+
+👉 GitHub Repository
+
+🚀 Future Enhancements
+Support for multiple cloak colors
+Improved background stabilization
+Enhanced mask refinement
+Better performance under changing lighting conditions
+Improved real-time video processing
+Mobile camera support
+Better object segmentation
+Automatic color calibration
+📌 Notes
+
+For the best results:
+
+Use a bright red cloth.
+Keep the camera stationary.
+Capture the background before entering the frame.
+Use stable and consistent lighting.
+Avoid red-colored objects in the background.
+📄 License
+
+This project is created for educational and learning purposes.
